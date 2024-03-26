@@ -1,6 +1,5 @@
 # My Custom VSCode configuration
-![](assets\hello.png)
-
+![henlo](https://github.com/AH134/vscode-config/blob/master/assets/hello.png)
 This VSCode custom configuration is acts as a base config. It is primarily used as a starting point for multiple profiles.
 
 # Usage
