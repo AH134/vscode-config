@@ -1,6 +1,7 @@
 # My Custom VSCode configuration
+![](assets\hello.png)
 
-This VSCode custom configuration is a base config. It is primarily used as a starting point for multiple profiles where you add whatever you need to customize that specific profile, eg. web dev, go, cpp, etc...
+This VSCode custom configuration is acts as a base config. It is primarily used as a starting point for multiple profiles.
 
 # Usage
 ### Recommended
