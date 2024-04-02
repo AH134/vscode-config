@@ -35,9 +35,9 @@
     "terminal.integrated.minimumContrastRatio": 1,
     // make the window's titlebar use the workbench colors
     "window.titleBarStyle": "custom",
-    "catppuccin.boldKeywords": false,
-    "catppuccin.italicComments": false,
     "catppuccin.italicKeywords": false,
+    "catppuccin.italicComments": false,
+    "catppuccin.boldKeywords": false,
     // ----- VIM SETTINGS -----
     "vim.easymotion": true,
     "vim.incsearch": true,
@@ -173,13 +173,14 @@
     },
     // ----- BACKGROUND SETTINGS -----
     "background.windowBackgrounds": [
-        "c:/Users/bob/Pictures/Screenshot 2024-03-20 135419.png"
+        "https://raw.githubusercontent.com/AH134/vscode-config/master/assets/backgrounds/bg1/islet_artwork.jpg"
     ],
     "background.backgroundOpacity": [
-        0.93,
+        0.95,
         0.9,
         0.9,
         0.9
     ],
+    "background.autoInstall": false,
     // ---------- DEFAULT SETTINGS ----------
 }
