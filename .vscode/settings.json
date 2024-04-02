@@ -1,16 +1,17 @@
 {
     // ---------- DEFAULT SETTINGS ----------
     "telemetry.telemetryLevel": "off",
-    "breadcrumbs.enabled": false,
+    "gitlens.telemetry.enabled": false,
     // ----- WINDOW SETTINGS -----
     "window.zoomLevel": 1,
     "window.commandCenter": false,
-    // ----- WORKBENCH SETTINGS -----
-    "workbench.startupEditor": "none",
+    "workbench.layoutControl.enabled": true,
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "welcomePage",
+    "workbench.activityBar.location": "side",
     // ----- EDITOR SETTINGS -----
+    "breadcrumbs.enabled": false,
     "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.fontSize": 16,
     "editor.wordWrap": "on",
@@ -20,6 +21,7 @@
     "editor.minimap.enabled": false,
     "editor.cursorSurroundingLines": 8,
     "editor.stickyScroll.enabled": false,
+    "editor.scrollbar.vertical": "auto",
     // ----- CATPPUCCIN THEME SETTINGS -----
     // we try to make semantic highlighting look good
     "editor.semanticHighlighting.enabled": true,
@@ -27,9 +29,9 @@
     "terminal.integrated.minimumContrastRatio": 1,
     // make the window's titlebar use the workbench colors
     "window.titleBarStyle": "custom",
-    "catppuccin.boldKeywords": false,
-    "catppuccin.italicComments": false,
     "catppuccin.italicKeywords": false,
+    "catppuccin.italicComments": false,
+    "catppuccin.boldKeywords": false,
     // ----- VIM SETTINGS -----
     "vim.easymotion": true,
     "vim.incsearch": true,
@@ -162,6 +164,18 @@
     // Improve Performance
     "extensions.experimental.affinity": {
         "vscodevim.name": 1
-    }
+    },
+    // ----- BACKGROUND SETTINGS -----
+    // uninstall if you don't want background
+    "background.windowBackgrounds": [
+        "https://raw.githubusercontent.com/AH134/vscode-config/master/assets/backgrounds/islet_artwork.jpg"
+    ],
+    "background.backgroundOpacity": [
+        0.95,
+        0.9,
+        0.9,
+        0.9
+    ],
+    "background.autoInstall": false,
     // ---------- DEFAULT SETTINGS ----------
 }
