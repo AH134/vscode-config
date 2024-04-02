@@ -173,7 +173,7 @@
     },
     // ----- BACKGROUND SETTINGS -----
     "background.windowBackgrounds": [
-        "https://raw.githubusercontent.com/AH134/vscode-config/master/assets/backgrounds/bg1/islet_artwork.jpg"
+        "https://raw.githubusercontent.com/AH134/vscode-config/master/assets/backgrounds/islet_artwork.jpg"
     ],
     "background.backgroundOpacity": [
         0.95,
